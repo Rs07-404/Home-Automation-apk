@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = Home Automate
 
 # (str) Package name
-package.name = myapp
+package.name = hamate
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3==3.11.4, Kivy==2.2.1, requests==2.31.0, kivymd==1.1.1, setuptools==65.5.1, six==1.16.0, Pygments==2.16.1, docutils==0.20.1, Pillow==10.0.0, pyinstaller==5.13.0, certifi==2023.7.22, pypiwin32==223, pywin32==306
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,10 +64,10 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.11.4
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 2.2.1
 
 #
 # Android specific
