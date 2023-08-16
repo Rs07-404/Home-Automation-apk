@@ -1,0 +1,12 @@
+Kivy~=2.2.1
+requests~=2.31.0
+kivymd~=1.1.1
+setuptools~=65.5.1
+six~=1.16.0
+Pygments~=2.16.1
+docutils~=0.20.1
+Pillow~=10.0.0
+pyinstaller~=5.13.0
+certifi~=2023.7.22
+pypiwin32~=223
+pywin32~=306
